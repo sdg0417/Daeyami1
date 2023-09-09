@@ -47,7 +47,7 @@
             <p>© 대야미 일동. All Rights Reserved. </p>
             <ul id="moreInfo" class="list-inline d-flex justify-content-center">
                 <li class="list-inline-item">
-                    <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="youtube-link">제작 도움: 조코딩 유튜브 채널</a>
+                    <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="youtube-link">제작 도움: 송동근</a>
                 </li>
             </ul>
         </div>
@@ -110,7 +110,6 @@
             dic_class2information['주영'] = '난 조용히 연애하지 아니...어장인가? 나는 오주영';
             dic_class2information['시훈'] = '대야미의 천마 나는 유시훈';
             dic_class2information['윤기'] = '그 누구도 나를 막을 수 없어 내가 곧 정답이야 나는 김윤기';
-            dic_class2information['건우'] = '날 찾지말아줘 나는 카톡방에 있으나 없는 존재 나는 김건우';
             var image = document.getElementById("face-image");
             const prediction = await model.predict(image, false);
             prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
